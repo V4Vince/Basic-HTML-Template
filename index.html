@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="Style/main.css" />
+
+    <script src="JS/index.js"></script>
+    <title>Title Here</title>
+  </head>
+  <body>
+<!--CONTAINER FOR SIDENAV && CONTENT PORTAL-->
+    <div class="app-container row">
+<!-- SIDE NAV-->
+      <div class="col-md-3 col-lg-2 d-none d-md-block custom-side-nav container-fluid text-center">
+        <ul class="nav-link-btns">
+          <li onClick="displayContent('home-page')">HOME</li>
+          <li onClick="displayContent('about-page')">ABOUT</li>
+          <li onClick="displayContent('projects-page')">PROJECTS</li>
+          <li onclick="displayContent('personal-work')">PERSONAL</li>
+        </ul>
+        <ul class="social-icon-wrapper">
+          <li><img src="https://cdn3.iconfinder.com/data/icons/social-media-circle-flat-1/1024/behance-01-01-512.png"/alt="belance icon" /></li>
+          <li><img src="https://image.flaticon.com/icons/svg/56/56591.svg" alt="linkedin icon" /></li>
+        </ul>
+      </div><!--./END SIDE NAV-->
+
+<!-- CONTENT PORTAL -->
+      <div id="content-portal" class="col-md-9 col-lg-10 app-content-portal">
+        <section>
+          <h2>HELLO THUR!</h2>
+          <p>This will be the landing page</p>
+        </section>
+      </div>
+    </div><!--./END CONTENT PORTAL -->
+
+<!-- ACTUAL CONTENT:
+  You should edit the divs below. Do not touch the code above unless you know what you're doing.
+-->
+    <div class="hidden">
+      <!-- Home Page-->
+      <section id="home-page">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4">Home Page</h1>
+            <p class="lead">This is the home page content inside a bootstrap jumbotron fluid.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Page-->
+      <section id="about-page">
+        <div class="jumbotron">
+          <h1 class="display-4">About Me!</h1>
+          <p class="lead">This is a simple about me tagline</p>
+          <hr class="my-4">
+          <p>Content for about me can go here. Talk about yourself and what not; there's also a button below to take visitors to your projects.</p>
+          <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">See my portfolio</a>
+          </p>
+        </div>
+      </section>
+
+      <!-- Projects Page-->
+      <section id="projects-page">
+        <h2>Projects Page</h2>
+        <p>You can display one project per page or just a scrollable page with a list of your projects</p>
+      </section>
+
+      <!--Personal Page-->
+      <section id="personal-work">
+        <h2>Personal Work</h2>
+        <p>Here is my personal works outside of school</p>
+      </section>
+
+    </div><!-- ./END ACTUAL CONTENT-->
+
+
+<!--
+Todo:
+  1. Change li in sidenav to buttons
+  2. Implement active class on side nav links
+
+Extra: Maybe implement handlebars for template injections
+-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

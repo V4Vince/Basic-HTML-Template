@@ -1,0 +1,36 @@
+body, html {
+ height: 100vh !important;
+}
+
+.app-container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.custom-side-nav {
+  justify-content: center;
+}
+.custom-side-nav ul {
+  list-style: none;
+}
+.custom-side-nav > ul > li {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.app-content-portal {
+  display: flex;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.social-icon-wrapper li {
+  display: inline-block;
+}
+.social-icon-wrapper img{
+  height: 2.5rem;
+}
